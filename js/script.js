@@ -31,3 +31,21 @@ function ddDisplay() {
         ddContent.style.display = "block";
     }
 }
+
+function FooBar(i) {
+    for(let j = 1; j <= i; j++) {
+        if (j % 3 === 0) {
+            if (j % 5 === 0) {
+                console.log("FooBar")
+            } else {
+                console.log("Foo")
+            }
+        } else if (j % 5 === 0) {
+            console.log("Bar")
+        } else {
+            console.log(j)
+        }
+    }
+}
+
+FooBar(20)
