@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Datamatch Stats Assignment 1</title>
+    <script src = "js/script.js"></script>
+</head>
+<body>
+<div id = "sideNav" class = "nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href = "index.html">Home</a>
+    <button class = "dropdown-btn" onclick = "ddDisplay();">me_irl</button>
+    <div id = "ddcontent" class = "dropdown-container">
+        <a href = "memes.html">All</a>
+        <a href = "polite_cat.html">Polite Cat</a>
+        <a href = "angery.html">Angery Schmangery</a>
+        <a href = "trolley.html">Trolley Memes</a>
+    </div>
+    <a href = "screenshots.html">Screenshots</a>
+    <a href = "about.html">Actual Information</a>
+</div>
+<span style = "font-size:20px; cursor:pointer;" onclick = "openNav();"> &#9776; Navigation </span>
+<div id = "main">
+    <div class = "header">
+        <h1>Meme inventory</h1>
+    </div>
+    <hr style = "width: 40%;"/>
+    <div class = "header">
+        <h3>My taste is bad but it is what it is</h3>
+    </div>
+    <div class = "main">
+        <div class = "box" style = "background-color: transparent;">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <div class = "card">
+                        <a href = "polite_cat.html">
+                            <img src = "img/polite_cat0.jpg" class = "card-img-top" alt = "he's very polite">
+                        </a>
+                        <div class = "card-body">
+                            <h4>Polite cat</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                    <div class = "card">
+                        <a href = "angery.html">
+                            <img src = "img/angery_kirby.jpg" class = "card-img-top" alt = "wonder why he's angery">
+                        </a>
+                        <div class = "card-body">
+                            <h4>Angery schmangery</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                    <div class = "card">
+                        <a href = "trolley.html">
+                            <img src = "img/trolley0.jpg" class = "card-img-top" alt = "pull the lever">
+                        </a>
+                        <div class = "card-body">
+                            <h4>Trolley problem</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
